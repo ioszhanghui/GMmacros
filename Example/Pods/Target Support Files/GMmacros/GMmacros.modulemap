@@ -1,0 +1,6 @@
+framework module GMmacros {
+  umbrella header "GMmacros-umbrella.h"
+
+  export *
+  module * { export * }
+}

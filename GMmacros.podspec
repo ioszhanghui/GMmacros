@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'GMmacros'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of GMmacros.'
+  s.summary          = '常用的宏定义'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,17 +18,18 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+屏幕 适配 字体 颜色 等常用的宏定义
                        DESC
 
-  s.homepage         = 'https://github.com/ioszhanghui@163.com/GMmacros'
+  s.homepage         = 'https://github.com/ioszhanghui/GMmacros.git'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'ioszhanghui@163.com' => 'yomingyo@gmail.com' }
-  s.source           = { :git => 'https://github.com/ioszhanghui@163.com/GMmacros.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/ioszhanghui/GMmacros.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '9.0'
+    s.requires_arc = true
 
   s.source_files = 'GMmacros/Classes/**/*'
   

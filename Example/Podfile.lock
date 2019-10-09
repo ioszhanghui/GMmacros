@@ -1,0 +1,27 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - GMmacros (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - GMmacros (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  GMmacros:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  GMmacros: 1d65868988752e2e3529fd5a75fd04e7072def02
+
+PODFILE CHECKSUM: d2cb830fa5bfa309defcd4b4b890d6ff2eea66c1
+
+COCOAPODS: 1.5.3
